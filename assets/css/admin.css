@@ -1,0 +1,90 @@
+.ovw-mat-modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  z-index:9999;
+  padding:30px;
+}
+.ovw-mat-modal-inner{
+  background:#fff;
+  border-radius:12px;
+  max-width:1100px;
+  margin:0 auto;
+  padding:14px;
+  max-height:90vh;
+  overflow:auto;
+}
+.ovw-mat-modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+.ovw-schema-builder{
+  border:1px solid #dcdcde;
+  background:#fff;
+  padding:16px;
+  border-radius:8px;
+}
+.ovw-schema-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:16px;
+}
+.ovw-schema-field label{
+  display:block;
+  margin-bottom:6px;
+}
+.ovw-schema-section{
+  border:1px solid #e2e2e2;
+  border-radius:8px;
+  padding:12px;
+  margin-bottom:16px;
+  background:#fafafa;
+}
+.ovw-schema-section-head{
+  display:flex;
+  gap:12px;
+  align-items:flex-end;
+  justify-content:space-between;
+  margin-bottom:8px;
+}
+.ovw-schema-hint{
+  font-size:12px;
+  color:#6b7280;
+  margin-bottom:8px;
+}
+.ovw-schema-table{
+  width:100%;
+  border-collapse:collapse;
+}
+.ovw-schema-table th,
+.ovw-schema-table td{
+  border:1px solid #e5e7eb;
+  padding:8px;
+  text-align:left;
+  vertical-align:top;
+}
+.ovw-schema-table input[type="text"],
+.ovw-schema-table select{
+  width:100%;
+}
+.ovw-schema-actions{
+  margin-top:10px;
+}
+.ovw-badge{
+  display:inline-block;
+  margin-left:8px;
+  padding:2px 6px;
+  font-size:11px;
+  border-radius:999px;
+  background:#e5e7eb;
+  color:#111827;
+}
+.ovw-badge-warning{
+  background:#fef3c7;
+  color:#92400e;
+}
